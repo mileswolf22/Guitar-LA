@@ -29,13 +29,13 @@ img {
 incluso puede añadirse __contendor para que seleccione todos los que finalicen con doble '_' en su nombre
 */
 
-[class*="__contenedor"]{
+[class*="contenedor"]{
     max-width: 120rem;
     margin: 0 auto;
     width: 95%;
 }
 
-[class*="__heading"]{
+[class*="heading"]{
     font-size: 4rem;
     text-align: center;
     font-weight: 900;
@@ -336,15 +336,16 @@ incluso puede añadirse __contendor para que seleccione todos los que finalicen 
 }
 
 .entrada__enlace{
-    color: var(--negro);
     margin-top: 2rem;
     display: block;
-    border: 2px solid var(--primary);
     text-decoration: none;
+    color: var(--negro);
     padding: 1rem 5rem;
-    text-transform: uppercase;
-    font-size: 1.4rem;
+    border: 2px solid var(--primary);
+    text-align: center;
+    font-size: 1.2rem;
     font-weight: 900;
+    text-transform: uppercase;
     transition-property: background-color;
     transition-duration: .3s;
 }
@@ -403,9 +404,12 @@ incluso puede añadirse __contendor para que seleccione todos los que finalicen 
 
 .footer__copyright{
     display: flex;
-    text-align: center;
+    align-items: center;
+
     font-size: 2.8rem;
     color: var(--blanco);
     font-weight: 700;
 }
+
+
 
